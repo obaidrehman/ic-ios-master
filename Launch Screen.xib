@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-2d-lsj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SLogo" translatesAutoresizingMaskIntoConstraints="NO" id="B4G-Tc-pp8">
+                            <rect key="frame" x="-13" y="153.5" width="400" height="300"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="300" id="5JQ-xu-fTE"/>
+                                <constraint firstAttribute="width" constant="400" id="SBq-nG-Ucv"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Infinity Chess" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kY4-Z2-mx3">
+                            <rect key="frame" x="8" y="461.5" width="359" height="49"/>
+                            <fontDescription key="fontDescription" name="Optima-ExtraBlack" family="Optima" pointSize="40"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="B4G-Tc-pp8" firstAttribute="centerY" secondItem="xrH-2d-lsj" secondAttribute="centerY" constant="-30" id="2hr-fm-uqf"/>
+                        <constraint firstAttribute="trailing" secondItem="kY4-Z2-mx3" secondAttribute="trailing" constant="8.3300000000000001" id="D4O-cc-e6t"/>
+                        <constraint firstItem="kY4-Z2-mx3" firstAttribute="top" secondItem="B4G-Tc-pp8" secondAttribute="bottom" constant="8" id="nJm-ex-zfB"/>
+                        <constraint firstItem="kY4-Z2-mx3" firstAttribute="leading" secondItem="xrH-2d-lsj" secondAttribute="leading" constant="8" id="x5i-Wb-bI1"/>
+                        <constraint firstItem="B4G-Tc-pp8" firstAttribute="centerX" secondItem="xrH-2d-lsj" secondAttribute="centerX" id="zPO-Hv-mCW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.5614500805" green="1" blue="0.44550784139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xrH-2d-lsj" secondAttribute="trailing" id="K5m-ly-gZE"/>
+                <constraint firstItem="xrH-2d-lsj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KfM-fO-2ex"/>
+                <constraint firstItem="xrH-2d-lsj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lrI-um-kqj"/>
+                <constraint firstAttribute="bottom" secondItem="xrH-2d-lsj" secondAttribute="bottom" id="ypZ-xW-3y9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="403.5" y="444.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SLogo" width="200" height="200"/>
+    </resources>
+</document>

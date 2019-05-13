@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InfinityChess2018.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>0C6C794A94B96605740F4AEF02A42CEED31C266C</string>
+				<key>dateExpires</key>
+				<string>6/1/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>DGXE37HV4H.com.mauqah.Infinity-Chess-iOS</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>DGXE37HV4H</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>DGXE37HV4H.com.mauqah.Infinity-Chess-iOS</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>InfinityChess2018.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c784a3e8-1877-4b8c-b72c-8babe2984f7f</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.mauqah.Infinity-Chess-iOS</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>DGXE37HV4H</string>
+				<key>name</key>
+				<string>MAUQAH TECHNOLOGY L.L.C</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
